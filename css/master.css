@@ -1,0 +1,37 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #10101d;
+  color: #e4dfd0;
+}
+h1, h2 {
+  color: #db8;
+  font-family: 'Source Code Pro', serif;
+}
+h2 {
+  font-size: 14pt;
+}
+code, output {
+  font-family: 'Source Code Pro', monospace;
+  color: #eff;
+}
+a {
+  color: #db4;
+}
+a:hover {
+  color: #ffbb20;
+}
+a:visited {
+  color: #b48040;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 80ch;
+  padding-left: 2ch;
+  padding-right: 2ch;
+}

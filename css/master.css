@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #10101d;
   color: #e4dfd0;
+  font-size: 16px;
 }
 h1, h2 {
   color: #db8;
@@ -27,11 +28,15 @@ canvas {
   position: fixed;
   top: 0;
   z-index: -1;
+  width: 100%;
+  height: 100%;
 }
 main {
   display: block;
   margin: 0 auto;
+  width: 88vw;
   max-width: 80ch;
   padding-left: 2ch;
   padding-right: 2ch;
+  background-color: #10101dcc;
 }

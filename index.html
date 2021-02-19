@@ -2,65 +2,82 @@
 <html lang="en" dir="ltr">
 
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>stellartux</title>
-<link rel="stylesheet" href="css/master.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro" rel="stylesheet">
-<link rel="shortcut icon" href="favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>stellartux</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:100|Source+Code+Pro:100,400" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.png">
 </head>
 
 <body>
-<canvas id="canvas" width="600" height="400"></canvas>
-<script src="triangles.js" charset="utf-8"></script>
+  <canvas id="canvas" width="600" height="400"></canvas>
+  <script src="triangles.js" charset="utf-8"></script>
 
-<main>
-<h1>stellartux</h1>
+  <main>
+    <h1>stellartux</h1>
+    <h2>Stuff I've Made</h2>
+    <h3><a href="#code" id="code">code</a></h3>
+    <p>The creatively named <a href="/websynth"> Websynth</a> is a browser based synthesiser. It works with MIDI
+      controllers, and has various different synthesis methods, the most interesting being the bytebeat function
+      generator, which can be used to write functions in either JavaScript, WebAssembly Text format or a miniature
+      concatenative DSL which is a simplified syntax wrapper around the WasmVM semantics.
+    </p>
 
-<h2><a href="#music" id="music">music</a></h2>
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=868541979/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"></iframe>
-<p>
-Music! I have some on <a href="https://stellartux.bandcamp.com">bandcamp</a>, <a href="https://soundcloud.com/stellartux">soundcloud</a>, <a href="https://musicoin.org/nav/artist/0xa7397ba8fa1a0d02ba707e4c87ec84dc7810849d">musicoin.</a>
-</p>
+    <p><a href="/rednoise">Rednoise</a>, a tracker for the Redshift virtual console from Exapunks. </p>
 
-<h2><a href="#code" id="code">code</a></h2>
-<p>The creatively named <a href="/websynth"> Websynth</a> is a browser based synthesiser. Works with MIDI controllers, and has various different synthesis methods, like bytebeat, and soon I'm going to merge the Inverse Fourier Transform based synthesis from <a href="/CC125">this project</a> into it.</p>
+    <p><a href="/rainbow-machine">Rainbow Machine</a> is a thing for making a Launchpad MKII flash pretty colours and
+      show words on it.</p>
 
-<p>I've been working on <a href="https://github.com/stellartux/AudioToaster">AudioToaster</a>, a tool for loading DIYLC layouts into ACME.jl. It sort of worked for a while, now it doesn't, I hope to get it sort of working again soon.</p>
+    <h3><a href="#writing" id="writing">writing</a></h3>
 
-<p><a href="/rainbow-machine">Rainbow Machine</a> is a thing for making a Launchpad MKII flash pretty colours and show words on it.</p>
-<p><a href="/rednoise">Rednoise</a>, a tracker for the Redshift virtual console from Exapunks. </p>
+    <p>Lately I've been trying to start keeping notes of what I do and how I do it. <a href="./writing">Coming soon</a>, I guess.</p>
+    
+    <h3><a href="#games" id="games">games</a></h3>
 
-<h2><a href="#games" id="games">games</a></h2>
+    <p>I made a few Godot projects. This is my <a href="https://stellartux.itch.io/">itch.io</a>, where you can play <a
+        href="https://stellartux.itch.io/mad-rocket-fitba">Mad Rocket Fitba</a>, my <span
+        style="text-decoration: line-through;">2D Rocket League ripoff</span> totally original concept, and <a
+        href="https://stellartux.itch.io/a-game-without-camels">A Game Without Camels</a>, where you are a ball bouncing
+      in a colourful place.</p>
 
-<p><a href="/bathroom-attendant">Bathroom Attendant</a> is a VR experience, I guess? You stand in a public toilet, no, I don't know why I made it either.</p>
+    <h3><a href="#music" id="music">music</a></h3>
+    <iframe style="border: 0; width: 400px; height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=868541979/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://stellartux.bandcamp.com/album/p-nk-teaser">p*nk teaser by stellartux</a></iframe>
+    <iframe src="https://open.spotify.com/embed/artist/0KQ2Eo35rQ53Nst7Od5Lfm" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <p> I have some on 
+      <a href="https://open.spotify.com/artist/0KQ2Eo35rQ53Nst7Od5Lfm?si=izaVMxMuRw-HVl5TsqygCg">Spotify</a>,
+      <a href="https://stellartux.bandcamp.com">Bandcamp</a>, 
+      <a href="https://soundcloud.com/stellartux">Soundcloud</a>, 
+      <a href="https://musicoin.org/nav/artist/0xa7397ba8fa1a0d02ba707e4c87ec84dc7810849d">Musicoin.</a>
+    </p>
 
-<p>I made a few Godot projects. This is my <a href="https://stellartux.itch.io/">itch.io</a>, where you can play <a href="https://stellartux.itch.io/mad-rocket-fitba">Mad Rocket Fitba</a>, my <span style="text-decoration: line-through;">2D Rocket League ripoff</span> totally original concept, and <a href="https://stellartux.itch.io/a-game-without-camels">A Game Without Camels</a>, where you are a ball bouncing in a colourful place.</p>
+    <h3><a href="#webart" id="webart">webart</a></h3>
 
-<h2><a href="#webart" id="webart">webart</a></h2>
+    <p>I have made various forks of Shiffman projects, go watch <a href="https://thecodingtrain.com">The Coding
+        Train</a></p>
 
-<p>I have made various forks of Shiffman projects, go watch <a href="https://thecodingtrain.com">The Coding Train</a></p>
+    <ul>
+      <li><a href="/CC129">Coding Challenge 129</a></li>
+      <li><a href="/CC125">Coding Challenge 125</a></li>
+      <li><a href="/CC90">Coding Challenge 90</a></li>
+      <li><a href="/CC86">Coding Challenge 86</a></li>
+    </ul>
+    <p>
+      Shaders! <a href="https://www.shadertoy.com/user/stellartux">Here is my Shadertoy profile.</a> I mostly use them
+      to make music, the exact thing they are not designed for whatsoever.
+    </p>
+    <p>I'm on <a href="https://www.dwitter.net/u/stellartux">Dwitter</a> and <a
+        href="https://codier.io/@stellartux">Codier</a></p>
 
-<ul>
-<li><a href="/CC129">Coding Challenge 129</a></li>
-<li><a href="/CC125">Coding Challenge 125</a></li>
-<li><a href="/CC90">Coding Challenge 90</a></li>
-<li><a href="/CC86">Coding Challenge 86</a></li>
-</ul>
-<p>
-Shaders! <a href="https://www.shadertoy.com/user/stellartux">Here is my Shadertoy profile.</a> I mostly use them to make music, the exact thing they are not designed for whatsoever.
-</p>
-<p>I'm on <a href="https://www.dwitter.net/u/stellartux">Dwitter</a> and <a href="https://codier.io/@stellartux">Codier</a></p>
-
-<h2><a href="#misc" id="misc">misc</a></h2>
-<p>
-I design/print 3D objects. <a href="https://www.thingiverse.com/stellartux/designs">My Thingiverse profile</a>
-</p>
-<p>
-I make guitar pedals and various Arduino projects, which at some point I will
-document as web pages, until then you'll just have to take my word for it.
-</p>
-</main>
+    <h3><a href="#misc" id="misc">misc</a></h3>
+    <p>
+      I design/print 3D objects. <a href="https://www.thingiverse.com/stellartux/designs">My Thingiverse profile</a>
+    </p>
+    <p>
+      I make guitar pedals and various Arduino projects, which at some point I will
+      document as web pages, until then you'll just have to take my word for it.
+    </p>
+  </main>
 
 </body>
 

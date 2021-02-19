@@ -1,22 +1,42 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #10101d;
   color: #e4dfd0;
-  font-size: 16px;
+  font-size: medium;
+  font-weight: lighter;
+  text-decoration-thickness: 0%;
+  text-underline-offset: 0.08em;
 }
-h1, h2 {
+
+h1,
+h2,
+h3 {
   color: #db8;
   font-family: 'Source Code Pro', serif;
 }
-h2 {
-  font-size: 14pt;
+h1 {
+  size: large;
+  font-weight: bold;
 }
-code, output {
+h2 {
+  size: larger;
+  font-weight: bolder;
+  margin: 0.1em;
+}
+h3 {
+  size: medium;
+  font-weight: bolder;
+  margin: 0.8em 0 0 0;
+}
+
+code,
+output {
   font-family: 'Source Code Pro', monospace;
   color: #eff;
 }
+
 a {
-  color: #db4;
+  color: rgb(230, 195, 71);
 }
 a:hover {
   color: #ffbb20;
@@ -24,6 +44,7 @@ a:hover {
 a:visited {
   color: #b48040;
 }
+
 canvas {
   position: fixed;
   top: 0;
@@ -31,11 +52,12 @@ canvas {
   width: 100%;
   height: 100%;
 }
+
 main {
   display: block;
   margin: 0 auto;
   width: 88vw;
-  max-width: 80ch;
+  max-width: 82ch;
   padding-left: 2ch;
   padding-right: 2ch;
   background-color: #10101dcc;
